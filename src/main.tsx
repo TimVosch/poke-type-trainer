@@ -185,7 +185,7 @@ const App = () => {
   }, [mode]);
 
   return (
-    <div class="w-full mx-4 xl:w-[960px] xl:mx-auto mt-12">
+    <div class="w-full px-4 xl:w-[960px] xl:mx-auto mt-12">
       {mode === "pending" ? <PendingCard /> : null}
       {mode === "playing" ? <GameCard /> : null}
       <ScoreCard />
