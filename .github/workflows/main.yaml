@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: 16
 
-      - run: yarn && yarn build
+      - run: yarn && yarn build --base=/poke-type-trainer/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
